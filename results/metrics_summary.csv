@@ -1,0 +1,17 @@
+Scenario,System,Accuracy (%),Avg Latency (ms),Leader Changes,Message Overhead,Throughput (dec/s)
+All Good (0%),Raft,100.0,0.0119,1,1000,83878.54
+All Good (0%),TrustMesh,100.0,0.0136,1,1000,73421.44
+10% Malicious,Raft,100.0,0.0295,1,1000,33930.51
+10% Malicious,TrustMesh,100.0,0.02,1,1000,50065.08
+20% Malicious,Raft,100.0,0.0252,1,1000,39761.43
+20% Malicious,TrustMesh,100.0,0.022,1,1000,45475.21
+30% Malicious,Raft,100.0,0.0187,1,1000,53418.79
+30% Malicious,TrustMesh,100.0,0.017,1,1000,58733.69
+40% Malicious,Raft,100.0,0.0189,1,1000,52887.67
+40% Malicious,TrustMesh,100.0,0.0343,1,1000,29157.92
+50% Malicious,Raft,100.0,0.0232,1,1000,43177.9
+50% Malicious,TrustMesh,100.0,0.0335,1,1000,29850.74
+60% Malicious,Raft,22.0,0.0173,1,1000,57803.47
+60% Malicious,TrustMesh,98.0,0.0183,1,1000,54638.84
+80% Malicious,Raft,0.0,0.0321,1,1000,31187.62
+80% Malicious,TrustMesh,96.0,0.0259,1,1000,38592.16
